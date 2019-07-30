@@ -24,10 +24,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="hertzify" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="hertzify" />
 
   <!-- device -->
   <project path="device/hertzify/sepolicy" name="android_device_hertzify_sepolicy" remote="hertzify" />
