@@ -7,7 +7,7 @@
 
   <!-- hertzify additions -->
   <!-- manifest -->
-  <project path="manifest" name="android_manifest" remote="hertzify" />
+  <project path="manifest" name="android_manifest" remote="hertzify" revision="test" />
 
   <!-- OTA -->
   <project path="hertzify_ota" name="hertzify_ota" remote="hertzify" />
@@ -69,6 +69,7 @@
   <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="hertzify" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="hertzify" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="hertzify" />
+  <project path="packages/apps/HertzifySettings" name="android_packages_apps_HertzifytzifySettings" remote="hertzify" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="hertzify" revision="test" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="hertzify" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="hertzify" />
@@ -81,7 +82,7 @@
 
   <!-- system -->
   <project path="system/bpf" name="android_system_bpf" remote="hertzify" />
-  <project path="system/core" name="android_system_core" remote="hertzify" />
+  <project path="system/core" name="android_system_core" remote="hertzify" revision="test" />
   <project path="system/libhidl" name="android_system_libhidl" remote="hertzify" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="hertzify" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="hertzify" />
@@ -95,5 +96,4 @@
   <project path="vendor/gms" name="android_vendor_gms" remote="hertzify" clone-depth="1" />
   <project path="vendor/hertzify" name="android_vendor_hertzify" remote="hertzify" />
   <project path="vendor/pixel-style" name="android_vendor_pixel-style" remote="hertzify" />
-  <project path="vendor/preferences" name="android_vendor_preferences" remote="hertzify" />
 </manifest>
