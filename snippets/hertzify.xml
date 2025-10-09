@@ -69,7 +69,7 @@
   <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="hertzify" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="hertzify" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="hertzify" />
-  <project path="packages/apps/HertzifySettings" name="android_packages_apps_HertzifytzifySettings" remote="hertzify" />
+  <project path="packages/apps/HertzifySettings" name="android_packages_apps_HertzifySettings" remote="hertzify" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="hertzify" revision="test" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="hertzify" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="hertzify" />
