@@ -94,6 +94,6 @@
   <!-- vendor -->
   <project path="vendor/gms_spoof" name="android_vendor_gms_spoof" remote="hertzify" />
   <project path="vendor/gms" name="android_vendor_gms" remote="hertzify" clone-depth="1" />
-  <project path="vendor/hertzify" name="android_vendor_hertzify" remote="hertzify" />
+  <project path="vendor/hertzify" name="android_vendor_hertzify" remote="hertzify" revision="test" />
   <project path="vendor/pixel-style" name="android_vendor_pixel-style" remote="hertzify" />
 </manifest>
