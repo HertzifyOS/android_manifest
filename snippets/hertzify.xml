@@ -94,6 +94,7 @@
   <project path="system/vold" name="android_system_vold" remote="hertzify" />
 
   <!-- vendor -->
+  <project path="vendor/extras" name="android_vendor_extras" remote="hertzify" />
   <project path="vendor/gms_spoof" name="android_vendor_gms_spoof" remote="hertzify" />
   <project path="vendor/gms" name="android_vendor_gms" remote="hertzify" clone-depth="1" />
   <project path="vendor/hertzify" name="android_vendor_hertzify" remote="hertzify" />
