@@ -43,7 +43,7 @@
   </project>
 
   <!-- device -->
-  <project path="device/hertzify/sepolicy" name="android_device_hertzify_sepolicy" remote="hertzify" />
+  <project path="device/hertzify/sepolicy" name="android_device_hertzify_sepolicy" remote="hertzify" revision="pif" />
 
   <!-- external -->
   <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" remote="hertzify" />
