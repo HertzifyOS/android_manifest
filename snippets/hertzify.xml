@@ -52,7 +52,7 @@
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="hertzify" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="hertzify" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="hertzify" revision="pif" />
   <project path="frameworks/native" name="android_frameworks_native" remote="hertzify" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="hertzify" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="hertzify" />
@@ -70,7 +70,7 @@
   <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="hertzify" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="hertzify" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="hertzify" />
-  <project path="packages/apps/HertzifySettings" name="android_packages_apps_HertzifySettings" remote="hertzify" />
+  <project path="packages/apps/HertzifySettings" name="android_packages_apps_HertzifySettings" remote="hertzify" revision="pif" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="hertzify" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="hertzify" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="hertzify" />
@@ -95,7 +95,7 @@
 
   <!-- vendor -->
   <project path="vendor/extras" name="android_vendor_extras" remote="hertzify" />
-  <project path="vendor/gms_spoof" name="android_vendor_gms_spoof" remote="hertzify" />
+  <project path="vendor/spoof" name="android_vendor_spoof" remote="hertzify" revision="pif" />
   <project path="vendor/gms" name="android_vendor_gms" remote="hertzify" clone-depth="1" />
   <project path="vendor/hertzify" name="android_vendor_hertzify" remote="hertzify" />
   <project path="vendor/pixel-style" name="android_vendor_pixel-style" remote="hertzify" />
