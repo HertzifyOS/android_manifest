@@ -1,0 +1,41 @@
+HertzifyOS
+===========
+
+Getting started
+---------------
+
+To get started with Android, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+To initialize your local repository using the ProjectPixelage trees, use a command like this:
+```
+repo init -u https://github.com/HertzifyOS/android_manifest.git -b 17 --git-lfs
+```
+Or If you wish to save some system space and don't care about repo history depths: 
+```
+repo init --depth=1 -u https://github.com/HertzifyOS/android_manifest.git -b 17 --git-lfs
+```
+Then to sync up:
+```
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
+```
+
+Building HertzifyOS
+-------------------
+
+Initialize the ROM environment with the envsetup.sh script.
+
+```bash
+. build/envsetup.sh
+```
+
+Lunch your device after cloning all device sources if needed.
+
+```bash
+lunch hertzify_codename-cp2a-buildtype
+```
+
+Start compilation
+
+```bash
+mka bacon
+```
