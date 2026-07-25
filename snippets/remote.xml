@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- HertzifyOS -->
+  <remote name="hertzify"
+          fetch="https://github.com/HertzifyOS/"
+          revision="17" />
+
+  <remote name="hertzify-devices"
+          fetch="https://github.com/HertzifyOS-Devices"
+          revision="17" />
+
+  <!-- LineageOS -->
+  <remote name="LineageOS"
+          fetch="https://github.com/" 
+          revision="lineage-24.0" />
+
+  <!-- Github -->
+  <remote name="github"
+          fetch="https://github.com/" />
+</manifest>
