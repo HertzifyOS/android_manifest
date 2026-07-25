@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-17.0.0_r1"
            remote="aosp"
@@ -1116,4 +1116,10 @@
   </project>
   <!-- END open-source projects -->
 
+  <!-- HertzifyOS -->
+  <include name="snippets/remote.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/external.xml" />
+  <include name="snippets/hertzify.xml" />
 </manifest>
