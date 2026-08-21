@@ -18,4 +18,5 @@
   <!-- Github -->
   <remote name="github"
           fetch="https://github.com/" />
+
 </manifest>
