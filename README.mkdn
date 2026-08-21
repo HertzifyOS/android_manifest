@@ -8,11 +8,11 @@ To get started with Android, you'll need to get familiar with [Source Control To
 
 To initialize your local repository using the ProjectPixelage trees, use a command like this:
 ```
-repo init -u https://github.com/HertzifyOS/android_manifest.git -b 17 --git-lfs
+repo init -u https://github.com/HertzifyOS/android_manifest.git -b 17-staging --git-lfs
 ```
 Or If you wish to save some system space and don't care about repo history depths: 
 ```
-repo init --depth=1 -u https://github.com/HertzifyOS/android_manifest.git -b 17 --git-lfs
+repo init --depth=1 -u https://github.com/HertzifyOS/android_manifest.git -b 17-staging --git-lfs
 ```
 Then to sync up:
 ```
