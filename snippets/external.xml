@@ -5,6 +5,7 @@
   <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" remote="LineageOS" />
 
   <!-- LineageOS Fork external -->
+  <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" remote="LineageOS" />
   <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="LineageOS" />
   <project path="external/conscrypt" name="LineageOS/android_external_conscrypt" groups="pdk" remote="LineageOS" />
   <project path="external/dng_sdk" name="LineageOS/android_external_dng_sdk" groups="pdk" remote="LineageOS" />
@@ -12,9 +13,11 @@
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="LineageOS" />
   <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" remote="LineageOS" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="LineageOS" />
+  <project path="external/hplip" name="LineageOS/android_external_hplip" groups="pdk" remote="LineageOS" />
   <project path="external/libcupsfilters" name="LineageOS/android_external_libcupsfilters" groups="pdk" remote="LineageOS" />
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="LineageOS" />
   <project path="external/libjxl" name="LineageOS/android_external_libjxl" groups="pdk" remote="LineageOS" />
+  <project path="external/libopenapv" name="LineageOS/android_external_libopenapv" groups="pdk" remote="LineageOS" />
   <project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" remote="LineageOS" />
   <project path="external/libppd" name="LineageOS/android_external_libppd" groups="pdk" remote="LineageOS" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="LineageOS" />
@@ -22,6 +25,7 @@
   <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" groups="pdk,sysui-studio" remote="LineageOS" />
   <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" groups="pdk" remote="LineageOS" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="LineageOS" />
+  <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" remote="LineageOS" />
   <project path="external/v4l2_codec2" name="LineageOS/android_external_v4l2_codec2" groups="pdk" remote="LineageOS" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" />
   <project path="external/zstd" name="LineageOS/android_external_zstd" groups="pdk" remote="LineageOS" />
@@ -31,6 +35,7 @@
 
   <!-- LineageOS forks: hardware -->
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="LineageOS" />
+  <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="LineageOS" />
   <project path="hardware/google/camera" name="LineageOS/android_hardware_google_camera" groups="pdk" remote="LineageOS" />
   <project path="hardware/google/interfaces" name="LineageOS/android_hardware_google_interfaces" groups="pdk,sysui-studio" remote="LineageOS" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="LineageOS" />
@@ -39,12 +44,27 @@
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="LineageOS" />
   <project path="hardware/st/nfc" name="LineageOS/android_hardware_st_nfc" groups="pdk" remote="LineageOS" />
 
+  <!-- LineageOS forks: packages -->
+  <project path="packages/apps/ContactsPicker" name="LineageOS/android_packages_apps_ContactsPicker" groups="pdk-fs" remote="LineageOS" />
+  <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="LineageOS" />
+  <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="LineageOS" />
+  <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="LineageOS" />
+  <project path="packages/modules/ImsMedia" name="LineageOS/android_packages_modules_ImsMedia" groups="pdk" remote="LineageOS" />
+  <project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="LineageOS" />
+  <project path="packages/modules/NeuralNetworks" name="LineageOS/android_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
+  <project path="packages/modules/Profiling" name="LineageOS/android_packages_modules_Profiling" groups="pdk" remote="LineageOS" />
+  <project path="packages/modules/Telephony" name="LineageOS/android_packages_modules_Telephony" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
+  <project path="packages/modules/Uwb" name="LineageOS/android_packages_modules_Uwb" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
+  <project path="packages/services/BuiltInPrintService" name="LineageOS/android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
+  <project path="packages/services/DeviceAsWebcam" name="LineageOS/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
+  <project path="packages/services/Iwlan" name="LineageOS/android_packages_services_Iwlan" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
 
   <!-- LineageOS forks: system -->
   <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="LineageOS" />
   <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" remote="LineageOS" />
   <project path="system/chre" name="LineageOS/android_system_chre" groups="pdk" remote="LineageOS" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="LineageOS" />
+  <project path="system/gsid" name="LineageOS/android_system_gsid" groups="pdk" remote="LineageOS" />
   <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" remote="LineageOS" />
   <project path="system/libufdt" name="LineageOS/android_system_libufdt" groups="pdk" remote="LineageOS" />
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" remote="LineageOS" />
@@ -55,4 +75,6 @@
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="LineageOS" />
   <project path="system/usb" name="LineageOS/android_system_usb" groups="pdk" remote="LineageOS" />
 
+  <!-- LineageOS forks: trusty -->
+  <project path="trusty/user/base" name="LineageOS/android_trusty_user_base" groups="trusty,pdk" remote="LineageOS" />
 </manifest>
